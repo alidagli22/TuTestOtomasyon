@@ -18,6 +18,7 @@ public class HomePage {
 
     private By TrakyaUniversityLogo = By.cssSelector("");
     private By NavigationAreaTitle = By.cssSelector("");
+    private By NavigationAreaSecondTitle = By.cssSelector("");
 
 
     public void ShouldSeeTrakyaUniversityLogo(){
@@ -26,7 +27,9 @@ public class HomePage {
     public String ShouldSeeNavigationAreaTitle(){
        return elementHelper.getText(NavigationAreaTitle);
     }
-
+    public String ShouldSeeNavigationAreaSecondTitle() {
+        return elementHelper.getText(NavigationAreaSecondTitle);
+    }
 
 
 

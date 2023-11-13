@@ -28,7 +28,9 @@ public class HomePageDefinitions {
     }
 
     @Then("user should see Navigation Area Second Title: {string} on HomePage")
-    public void userShouldSeeNavigationAreaSecondTitleOnHomePage(String arg0) {
+    public void userShouldSeeNavigationAreaSecondTitleOnHomePage(String title) {
+        String areaTitle = homePage.ShouldSeeNavigationAreaSecondTitle();
+        Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Navigation Area Third Title: {string} on HomePage")
