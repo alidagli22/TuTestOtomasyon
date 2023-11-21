@@ -20,407 +20,486 @@ public class HomePageDefinitions {
     }
 
     @Then("user should see Trakya University Logo")
-    public void userShouldSeeTrakyaUniversityLogo() {
+    public void userShouldSeeTrakyaUniversityLogo()
+    {
         homePage.ShouldSeeTrakyaUniversityLogo();
     }
 
     @Then("user should see Navigation Area Title: {string} on HomePage")
-    public void userShouldSeeNavigationAreaTitleOnHomePage(String title) {
+    public void userShouldSeeNavigationAreaTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeNavigationAreaTitle();
         Assert.assertEquals(areaTitle , title);
     }
 
     @Then("user should see Navigation Area Second Title: {string} on HomePage")
-    public void userShouldSeeNavigationAreaSecondTitleOnHomePage(String title) {
+    public void userShouldSeeNavigationAreaSecondTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeNavigationAreaSecondTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Navigation Area Third Title: {string} on HomePage")
-    public void userShouldSeeNavigationAreaThirdTitleOnHomePage(String title) {
+    public void userShouldSeeNavigationAreaThirdTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeNavigationAreaThirdTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Navigation Area Fourth Title : {string} on HomePage")
-    public void userShouldSeeNavigationAreaFourthTitleOnHomePage(String title) {
+    public void userShouldSeeNavigationAreaFourthTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeNavigationAreaFourthTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Navigation Area Fifth Title: {string} on HomePage")
-    public void userShouldSeeNavigationAreaFifthTitleOnHomePage(String title) {
+    public void userShouldSeeNavigationAreaFifthTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeNavigationAreaFifthTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Navigation Area Sixth Title: {string} on HomePage")
-    public void userShouldSeeNavigationAreaSixthTitleOnHomePage(String title) {
+    public void userShouldSeeNavigationAreaSixthTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeNavigationAreaSixthTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Navigation Area Seventh Title: {string} on HomePage")
-    public void userShouldSeeNavigationAreaSeventhTitleOnHomePage(String title) {
+    public void userShouldSeeNavigationAreaSeventhTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeNavigationAreaSeventhTitle();
         Assert.assertEquals(areaTitle,title);
-        }
+    }
 
     @Then("user should see News Title: {string} on HomePage")
-    public void userShouldSeeNewsTitleOnHomePage(String title) {
+    public void userShouldSeeNewsTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeNewsTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see News Second Title: {string} on HomePage")
-    public void userShouldSeeNewsSecondTitleOnHomePage(String title) {
+    public void userShouldSeeNewsSecondTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeNewsSecondTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Press Title: {string} on HomePage")
-    public void userShouldSeePressTitleOnHomePage(String title) {
+    public void userShouldSeePressTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeePressTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Announcements Title: {string} on HomePage")
-    public void userShouldSeeAnnouncementsTitleOnHomePage(String title) {
+    public void userShouldSeeAnnouncementsTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeAnnouncementsTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Announcements Second Title: {string} on HomePage")
-    public void userShouldSeeAnnouncementsSecondTitleOnHomePage(String title) {
+    public void userShouldSeeAnnouncementsSecondTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeAnnouncementsSecondTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Events Title: {string} on HomePage")
-    public void userShouldSeeEventsTitleOnHomePage(String title) {
+    public void userShouldSeeEventsTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeEventsTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Events Second Title: {string} on HomePage")
-    public void userShouldSeeEventsSecondTitleOnHomePage(String title) {
+    public void userShouldSeeEventsSecondTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeEventsSecondTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see News from Other Universities Title: {string} on HomePage")
-    public void userShouldSeeNewsFromOtherUniversitiesTitleOnHomePage(String title) {
+    public void userShouldSeeNewsFromOtherUniversitiesTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeNewsFromOtherUniversitiesTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see News from Other Universities Second Title: {string} on HomePage")
-    public void userShouldSeeNewsFromOtherUniversitiesSecondTitleOnHomePage(String title) {
+    public void userShouldSeeNewsFromOtherUniversitiesSecondTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeNewsFromOtherUniversitiesSecondTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see numbers: {string} on HomePage")
-    public void userShouldSeeNumbersOnHomePage(String title) {
+    public void userShouldSeeNumbersOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeNumbersOnHome();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Second Numbers: {string} on HomePage")
-    public void userShouldSeeSecondNumbersOnHomePage(String title) {
+    public void userShouldSeeSecondNumbersOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeSecondNumbers();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Third Numbers: {string} on HomePage")
-    public void userShouldSeeThirdNumbersOnHomePage(String title) {
+    public void userShouldSeeThirdNumbersOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeThirdNumbers();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Fourth Numbers: {string} on HomePage")
-    public void userShouldSeeFourthNumbersOnHomePage(String title) {
+    public void userShouldSeeFourthNumbersOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeFourthNumbers();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Fifth Numbers: {string} on HomePage")
-    public void userShouldSeeFifthNumbersOnHomePage(String title) {
+    public void userShouldSeeFifthNumbersOnHomePage(String title)
+
+    {
         String areaTitle = homePage.ShouldSeeFifthNumbers();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Sixth Numbers: {string} on HomePage")
-    public void userShouldSeeSixthNumbersOnHomePage(String title) {
+    public void userShouldSeeSixthNumbersOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeSixthNumbers();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Promotional Presentation Title: {string} on HomePage")
-    public void userShouldSeePromotionalPresentationTitleOnHomePage(String title) {
+    public void userShouldSeePromotionalPresentationTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeePromotionalPresentationTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Promotional Presentation  video")
-    public void userShouldSeePromotionalPresentationVideo() {
+    public void userShouldSeePromotionalPresentationVideo()
+    {
         homePage.ShouldSeePromotionalPresentationVideo();
     }
 
     @Then("user should see Our Museums Title: {string} on HomePage")
-    public void userShouldSeeOurMuseumsTitleOnHomePage(String title) {
+    public void userShouldSeeOurMuseumsTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeOurMuseumsTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Our Museums video")
-    public void userShouldSeeOurMuseumsVideo() {
+    public void userShouldSeeOurMuseumsVideo()
+    {
         homePage.ShouldSeeOurMuseumsVideo();
     }
 
     @Then("user should see Balkan Report Title: {string} on HomePage")
-    public void userShouldSeeBalkanReportTitleOnHomePage(String title) {
+    public void userShouldSeeBalkanReportTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeBalkanReportTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Balkan Report image")
-    public void userShouldSeeBalkanReportImage() {
+    public void userShouldSeeBalkanReportImage()
+    {
         homePage.ShouldSeeBalkanReportImage();
     }
 
     @Then("user should see Student Scholarship Projects image")
-    public void userShouldSeeStudentScholarshipProjectsImage() {
+    public void userShouldSeeStudentScholarshipProjectsImage()
+    {
         homePage.ShouldSeeStudentScholarshipProjectsImage();
     }
 
     @Then("user should see Student Scholarship Projects Title: {string} on HomePage")
-    public void userShouldSeeStudentScholarshipProjectsTitleOnHomePage(String title) {
+    public void userShouldSeeStudentScholarshipProjectsTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeStudentScholarshipProjectsTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Library image")
-    public void userShouldSeeLibraryImage() {
+    public void userShouldSeeLibraryImage()
+    {
         homePage.ShouldSeeLibraryImage();
     }
 
     @Then("user should see Library Title: {string} on HomePage")
-    public void userShouldSeeLibraryTitleOnHomePage(String title) {
+    public void userShouldSeeLibraryTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeLibraryTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Edirne image")
-    public void userShouldSeeEdirneImage() {
+    public void userShouldSeeEdirneImage()
+    {
         homePage.ShouldSeeEdirneImage();
     }
 
     @Then("user should see Edirne Title: {string} on HomePage")
-    public void userShouldSeeEdirneTitleOnHomePage(String title) {
+    public void userShouldSeeEdirneTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeEdirneTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Museums image")
-    public void userShouldSeeMuseumsImage() {
+    public void userShouldSeeMuseumsImage()
+    {
         homePage.ShouldSeeMuseumsImage();
     }
 
     @Then("user should see Museums Title: {string} on HomePage")
-    public void userShouldSeeMuseumsTitleOnHomePage(String title) {
+    public void userShouldSeeMuseumsTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeMuseumsTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Our Concerts image")
-    public void userShouldSeeOurConcertsImage() {
+    public void userShouldSeeOurConcertsImage()
+    {
         homePage.ShouldSeeOurConcertsImage();
     }
 
     @Then("user should see Our Concerts Title: {string} on HomePage")
-    public void userShouldSeeOurConcertsTitleOnHomePage(String title) {
+    public void userShouldSeeOurConcertsTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeOurConcertsTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Ataturk Corner image")
-    public void userShouldSeeAtaturkCornerImage() {
+    public void userShouldSeeAtaturkCornerImage()
+    {
         homePage.ShouldSeeAtaturkCornerImage();
     }
 
     @Then("user should see Ataturk Corner Title: {string} on HomePage")
-    public void userShouldSeeAtaturkCornerTitleOnHomePage(String title) {
+    public void userShouldSeeAtaturkCornerTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeAtaturkCornerTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Academic Journals Title: {string} on HomePage")
-    public void userShouldSeeAcademicJournalsTitleOnHomePage(String title) {
+    public void userShouldSeeAcademicJournalsTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeAcademicJournalsTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Academic Journal list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalListOnHomePage(String title) {
+    public void userShouldSeeAcademicJournalListOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeAcademicJournalList();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Academic Journal Second list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalSecondListOnHomePage(String title) {
+    public void userShouldSeeAcademicJournalSecondListOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeAcademicJournalSecondList();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Academic Journal Third list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalThirdListOnHomePage(String title) {
+    public void userShouldSeeAcademicJournalThirdListOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeAcademicJournalThirdList();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Academic Journal Fourth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalFourthListOnHomePage(String title) {
+    public void userShouldSeeAcademicJournalFourthListOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeAcademicJournalFourthList();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Academic Journal Fifth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalFifthListOnHomePage(String title) {
+    public void userShouldSeeAcademicJournalFifthListOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeAcademicJournalFifthList();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Academic Journal Sixth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalSixthListOnHomePage(String title) {
+    public void userShouldSeeAcademicJournalSixthListOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeAcademicJournalSixthList();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Academic Journals Seventh Title: {string} on HomePage")
-    public void userShouldSeeAcademicJournalsSeventhTitleOnHomePage(String title) {
+    public void userShouldSeeAcademicJournalsSeventhTitleOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeAcademicJournalsSeventhTitle();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Academic Journal Eighth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalEighthListOnHomePage(String title) {
+    public void userShouldSeeAcademicJournalEighthListOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeAcademicJournalEighthList();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Academic Journal Ninth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalNinthListOnHomePage(String title) {
+    public void userShouldSeeAcademicJournalNinthListOnHomePage(String title)
+    {
         String areaTitle = homePage.ShouldSeeAcademicJournalNinthList();
         Assert.assertEquals(areaTitle,title);
     }
 
     @Then("user should see Academic Journal Tenth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalTenthListOnHomePage(String arg0) {
+    public void userShouldSeeAcademicJournalTenthListOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Academic Journal Eleventh list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalEleventhListOnHomePage(String arg0) {
+    public void userShouldSeeAcademicJournalEleventhListOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Academic Journal Twelfth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalTwelfthListOnHomePage(String arg0) {
+    public void userShouldSeeAcademicJournalTwelfthListOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Academic Journal Thirteenth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalThirteenthListOnHomePage(String arg0) {
+    public void userShouldSeeAcademicJournalThirteenthListOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Academic Journal Fourteenth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalFourteenthListOnHomePage(String arg0) {
+    public void userShouldSeeAcademicJournalFourteenthListOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Academic Journal Fifteenth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalFifteenthListOnHomePage(String arg0) {
+    public void userShouldSeeAcademicJournalFifteenthListOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Academic Journal Sixteenth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalSixteenthListOnHomePage(String arg0) {
+    public void userShouldSeeAcademicJournalSixteenthListOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Academic Journal Seventeenth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalSeventeenthListOnHomePage(String arg0) {
+    public void userShouldSeeAcademicJournalSeventeenthListOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Academic Journal Eighteenth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalEighteenthListOnHomePage(String arg0) {
+    public void userShouldSeeAcademicJournalEighteenthListOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Academic Journal Nineteenth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalNineteenthListOnHomePage(String arg0) {
+    public void userShouldSeeAcademicJournalNineteenthListOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Commissions and Boards Title: {string} on HomePage")
-    public void userShouldSeeCommissionsAndBoardsTitleOnHomePage(String arg0) {
+    public void userShouldSeeCommissionsAndBoardsTitleOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Units Affiliated to the Rectorate Title: {string} on HomePage")
-    public void userShouldSeeUnitsAffiliatedToTheRectorateTitleOnHomePage(String arg0) {
+    public void userShouldSeeUnitsAffiliatedToTheRectorateTitleOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Tuba image")
-    public void userShouldSeeTubaImage() {
+    public void userShouldSeeTubaImage()
+    {
     }
 
     @Then("user should see Tuba Title: {string} on HomePage")
-    public void userShouldSeeTubaTitleOnHomePage(String arg0) {
+    public void userShouldSeeTubaTitleOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Yok image")
-    public void userShouldSeeYokImage() {
+    public void userShouldSeeYokImage()
+    {
     }
 
     @Then("user should see Yok Title: {string} on HomePage")
-    public void userShouldSeeYokTitleOnHomePage(String arg0) {
+    public void userShouldSeeYokTitleOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Tub image")
-    public void userShouldSeeTubImage() {
+    public void userShouldSeeTubImage()
+    {
     }
 
     @Then("user should see Tub Title: {string} on HomePage")
-    public void userShouldSeeTubTitleOnHomePage(String arg0) {
+    public void userShouldSeeTubTitleOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Ilan image")
-    public void userShouldSeeIlanImage() {
+    public void userShouldSeeIlanImage()
+    {
     }
 
     @Then("user should see Ilan Title: {string} on HomePage")
-    public void userShouldSeeIlanTitleOnHomePage(String arg0) {
+    public void userShouldSeeIlanTitleOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Balkan Universities Association image")
-    public void userShouldSeeBalkanUniversitiesAssociationImage() {
+    public void userShouldSeeBalkanUniversitiesAssociationImage()
+    {
     }
 
     @Then("user should see Balkan Universities Association Title: {string} on HomePage")
-    public void userShouldSeeBalkanUniversitiesAssociationTitleOnHomePage(String arg0) {
+    public void userShouldSeeBalkanUniversitiesAssociationTitleOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Balkan Tubitak image")
-    public void userShouldSeeBalkanTubitakImage() {
+    public void userShouldSeeBalkanTubitakImage()
+    {
     }
 
     @Then("user should see Balkan Tubitak Title: {string} on HomePage")
-    public void userShouldSeeBalkanTubitakTitleOnHomePage(String arg0) {
+    public void userShouldSeeBalkanTubitakTitleOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Trakya University Bridge to the Future logo")
-    public void userShouldSeeTrakyaUniversityBridgeToTheFutureLogo() {
+    public void userShouldSeeTrakyaUniversityBridgeToTheFutureLogo()
+    {
     }
 
     @Then("user should see Footer Information:{string} on HomePage")
-    public void userShouldSeeFooterInformationOnHomePage(String arg0) {
+    public void userShouldSeeFooterInformationOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Footer Second Information:{string} on HomePage")
-    public void userShouldSeeFooterSecondInformationOnHomePage(String arg0) {
+    public void userShouldSeeFooterSecondInformationOnHomePage(String arg0)
+    {
     }
 
     @Then("user should see Footer Call logo")

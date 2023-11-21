@@ -70,49 +70,64 @@ public class HomePage {
     private By AcademicJournalEighthList = By.cssSelector("");
     private By AcademicJournalNinthList = By.cssSelector("");
 
-    public void ShouldSeeTrakyaUniversityLogo(){
+    public void ShouldSeeTrakyaUniversityLogo()
+    {
         elementHelper.checkElement(TrakyaUniversityLogo);
     }
-    public String ShouldSeeNavigationAreaTitle(){
-       return elementHelper.getText(NavigationAreaTitle);
+    public String ShouldSeeNavigationAreaTitle()
+    {
+        return elementHelper.getText(NavigationAreaTitle);
     }
-    public String ShouldSeeNavigationAreaSecondTitle() {
+    public String ShouldSeeNavigationAreaSecondTitle()
+    {
         return elementHelper.getText(NavigationAreaSecondTitle);
     }
-    public String ShouldSeeNavigationAreaThirdTitle(){
+    public String ShouldSeeNavigationAreaThirdTitle()
+    {
         return elementHelper.getText(NavigationAreaThirdTitle);
     }
-    public String ShouldSeeNavigationAreaFourthTitle(){
+    public String ShouldSeeNavigationAreaFourthTitle()
+    {
         return elementHelper.getText(NavigationAreaFourthTitle);
     }
-    public String ShouldSeeNavigationAreaFifthTitle(){
+    public String ShouldSeeNavigationAreaFifthTitle()
+    {
         return elementHelper.getText(NavigationAreaFifthTitle);
     }
-    public String ShouldSeeNavigationAreaSixthTitle(){
+    public String ShouldSeeNavigationAreaSixthTitle()
+    {
         return elementHelper.getText(NavigationAreaSixthTitle);
     }
-    public String ShouldSeeNavigationAreaSeventhTitle(){
+    public String ShouldSeeNavigationAreaSeventhTitle()
+    {
         return elementHelper.getText(NavigationAreaSeventhTitle);
     }
-    public String ShouldSeeNewsTitle(){
+    public String ShouldSeeNewsTitle()
+    {
         return elementHelper.getText(NewsTitleSection);
     }
-    public String ShouldSeeNewsSecondTitle(){
+    public String ShouldSeeNewsSecondTitle()
+    {
         return elementHelper.getText(NewsSecondTitle);
     }
-    public String ShouldSeePressTitle(){
+    public String ShouldSeePressTitle()
+    {
         return elementHelper.getText(PressTitle);
     }
-    public String ShouldSeeAnnouncementsTitle(){
+    public String ShouldSeeAnnouncementsTitle()
+    {
         return elementHelper.getText(AnnouncementsTitle);
     }
-    public String ShouldSeeAnnouncementsSecondTitle(){
+    public String ShouldSeeAnnouncementsSecondTitle()
+    {
         return elementHelper.getText(AnnouncementsSecondTitle);
     }
-    public String ShouldSeeEventsTitle(){
+    public String ShouldSeeEventsTitle()
+    {
         return elementHelper.getText(EventsTitle);
     }
-    public String ShouldSeeEventsSecondTitle(){
+    public String ShouldSeeEventsSecondTitle()
+    {
         return elementHelper.getText(EventsSecondTitle);
     }
     public String ShouldSeeNewsFromOtherUniversitiesTitle(){
@@ -121,106 +136,138 @@ public class HomePage {
     public String ShouldSeeNewsFromOtherUniversitiesSecondTitle(){
         return elementHelper.getText(NewsFromOtherUniversitiesSecondTitle);
     }
-    public String ShouldSeeNumbersOnHome(){
+    public String ShouldSeeNumbersOnHome()
+    {
         return elementHelper.getText(NumbersOnHome);
     }
-    public String ShouldSeeSecondNumbers(){
+    public String ShouldSeeSecondNumbers()
+    {
         return elementHelper.getText(SecondNumbers);
     }
-    public String ShouldSeeThirdNumbers(){
+    public String ShouldSeeThirdNumbers()
+    {
         return elementHelper.getText(ThirdNumbers);
     }
-    public String ShouldSeeFourthNumbers(){
+    public String ShouldSeeFourthNumbers()
+    {
         return elementHelper.getText(FourthNumbers);
     }
-    public String ShouldSeeFifthNumbers(){
+    public String ShouldSeeFifthNumbers()
+    {
         return elementHelper.getText(FifthNumbers);
     }
-    public String ShouldSeeSixthNumbers(){
+    public String ShouldSeeSixthNumbers()
+    {
         return elementHelper.getText(SixthNumbers);
     }
     public String ShouldSeePromotionalPresentationTitle(){
         return elementHelper.getText(PromotionalPresentationTitle);
     }
-    public void ShouldSeePromotionalPresentationVideo(){
+    public void ShouldSeePromotionalPresentationVideo()
+    {
         elementHelper.checkElement(PromotionalPresentationVideo);
     }
-    public String ShouldSeeOurMuseumsTitle(){
+    public String ShouldSeeOurMuseumsTitle()
+    {
         return elementHelper.getText(OurMuseumsTitle);
     }
-    public void ShouldSeeOurMuseumsVideo(){
+    public void ShouldSeeOurMuseumsVideo()
+    {
         elementHelper.checkElement(OurMuseumsVideo);
     }
-    public String ShouldSeeBalkanReportTitle(){
+    public String ShouldSeeBalkanReportTitle()
+    {
         return elementHelper.getText(BalkanReportTitle);
     }
-    public void ShouldSeeBalkanReportImage(){
+    public void ShouldSeeBalkanReportImage()
+    {
         elementHelper.checkElement(BalkanReportImage);
     }
     public void ShouldSeeStudentScholarshipProjectsImage(){
         elementHelper.checkElement(StudentScholarshipProjectsImage);
     }
-    public String ShouldSeeStudentScholarshipProjectsTitle(){
+    public String ShouldSeeStudentScholarshipProjectsTitle()
+    {
         return elementHelper.getText(StudentScholarshipProjectsTitle);
     }
-    public void ShouldSeeLibraryImage(){
+    public void ShouldSeeLibraryImage()
+    {
         elementHelper.checkElement(LibraryImage);
     }
-    public String ShouldSeeLibraryTitle(){
+    public String ShouldSeeLibraryTitle()
+    {
         return elementHelper.getText(LibraryTitle);
     }
-    public void ShouldSeeEdirneImage(){
+    public void ShouldSeeEdirneImage()
+    {
         elementHelper.checkElement(EdirneImage);
     }
-    public String ShouldSeeEdirneTitle(){
+    public String ShouldSeeEdirneTitle()
+    {
         return elementHelper.getText(EdirneTitle);
     }
-    public void ShouldSeeMuseumsImage(){
+    public void ShouldSeeMuseumsImage()
+    {
         elementHelper.checkElement(MuseumsImage);
     }
-    public String ShouldSeeMuseumsTitle(){
+    public String ShouldSeeMuseumsTitle()
+    {
         return elementHelper.getText(MuseumsTitle);
     }
-    public void ShouldSeeOurConcertsImage(){
+    public void ShouldSeeOurConcertsImage()
+    {
         elementHelper.checkElement(OurConcertsImage);
     }
-    public String ShouldSeeOurConcertsTitle(){
+    public String ShouldSeeOurConcertsTitle()
+    {
         return elementHelper.getText(OurConcertsTitle);
     }
-    public void ShouldSeeAtaturkCornerImage(){
+    public void ShouldSeeAtaturkCornerImage()
+    {
         elementHelper.checkElement(AtaturkCornerImage);
     }
-    public String ShouldSeeAtaturkCornerTitle(){
+    public String ShouldSeeAtaturkCornerTitle()
+    {
         return elementHelper.getText(AtaturkCornerTitle);
     }
-    public String ShouldSeeAcademicJournalsTitle(){
+    public String ShouldSeeAcademicJournalsTitle()
+    {
         return elementHelper.getText(AcademicJournalsTitle);
     }
-    public String ShouldSeeAcademicJournalList(){
+    public String ShouldSeeAcademicJournalList()
+    {
         return elementHelper.getText(AcademicJournalList);
     }
-    public String ShouldSeeAcademicJournalSecondList(){
+    public String ShouldSeeAcademicJournalSecondList()
+    {
         return elementHelper.getText(AcademicJournalSecondList);
     }
-    public String ShouldSeeAcademicJournalThirdList(){
+    public String ShouldSeeAcademicJournalThirdList()
+    {
         return elementHelper.getText(AcademicJournalThirdList);
     }
-    public String ShouldSeeAcademicJournalFourthList(){
+    public String ShouldSeeAcademicJournalFourthList()
+    {
         return elementHelper.getText(AcademicJournalFourthList);
     }
-    public String ShouldSeeAcademicJournalFifthList(){
+    public String ShouldSeeAcademicJournalFifthList()
+    {
         return elementHelper.getText(AcademicJournalFifthList);
     }
-    public String ShouldSeeAcademicJournalSixthList(){
+    public String ShouldSeeAcademicJournalSixthList()
+    {
         return elementHelper.getText(AcademicJournalSixthList);
     }
-    public String ShouldSeeAcademicJournalsSeventhTitle(){
+    public String ShouldSeeAcademicJournalsSeventhTitle()
+    {
         return elementHelper.getText(AcademicJournalsSeventhTitle);
     }
-    public String ShouldSeeAcademicJournalEighthList(){
+    public String ShouldSeeAcademicJournalEighthList()
+    {
         return elementHelper.getText(AcademicJournalEighthList);
     }
-    public String ShouldSeeAcademicJournalNinthList(){
+    public String ShouldSeeAcademicJournalNinthList()
+    {
         return  elementHelper.getText(AcademicJournalNinthList);
     }
 
