@@ -17,141 +17,118 @@ public class HomePage {
     }
 
     public void userOnTheHomePage() {
-        elementHelper.openUrl("https:www.trakya.edu.tr");
+        elementHelper.openUrl("https://www.trakya.edu.tr/");
     }
 
-    private By TrakyaUniversityLogo = By.cssSelector("");
-    private By NavigationAreaTitle = By.cssSelector("");
-    private By NavigationAreaSecondTitle = By.cssSelector("");
-    private By NavigationAreaThirdTitle = By.cssSelector("");
-    private By NavigationAreaFourthTitle = By.cssSelector("");
-    private By NavigationAreaFifthTitle = By.cssSelector("");
-    private By NavigationAreaSixthTitle = By.cssSelector("");
-    private By NavigationAreaSeventhTitle = By.cssSelector("");
-    private By NewsTitleSection = By.cssSelector("");
-    private By NewsSecondTitle = By.cssSelector("");
-    private By PressTitle = By.cssSelector("");
-    private By AnnouncementsTitle = By.cssSelector("");
-    private By AnnouncementsSecondTitle = By.cssSelector("");
-    private By EventsTitle = By.cssSelector("");
-    private By EventsSecondTitle = By.cssSelector("");
-    private By NewsFromOtherUniversitiesTitle = By.cssSelector("");
-    private By NewsFromOtherUniversitiesSecondTitle = By.cssSelector("");
-    private By NumbersOnHome = By.cssSelector("");
-    private By SecondNumbers = By.cssSelector("");
-    private By ThirdNumbers = By.cssSelector("");
-    private By FourthNumbers = By.cssSelector("");
-    private By FifthNumbers = By.cssSelector("");
-    private By SixthNumbers = By.cssSelector("");
-    private By PromotionalPresentationTitle = By.cssSelector("");
-    private By PromotionalPresentationVideo = By.cssSelector("");
-    private By OurMuseumsTitle = By.cssSelector("");
-    private By OurMuseumsVideo = By.cssSelector("");
-    private By BalkanReportTitle = By.cssSelector("");
-    private By BalkanReportImage = By.cssSelector("");
-    private By StudentScholarshipProjectsImage = By.cssSelector("");
-    private By StudentScholarshipProjectsTitle = By.cssSelector("");
-    private By LibraryImage = By.cssSelector("");
-    private By LibraryTitle = By.cssSelector("");
-    private By EdirneImage = By.cssSelector("");
-    private By EdirneTitle = By.cssSelector("");
-    private By MuseumsImage = By.cssSelector("");
-    private By MuseumsTitle = By.cssSelector("");
-    private By OurConcertsImage = By.cssSelector("");
-    private By OurConcertsTitle = By.cssSelector("");
-    private By AtaturkCornerImage = By.cssSelector("");
-    private By AtaturkCornerTitle = By.cssSelector("");
-    private By AcademicJournalsTitle = By.cssSelector("");
-    private By AcademicJournalList = By.cssSelector("");
-    private By AcademicJournalSecondList = By.cssSelector("");
-    private By AcademicJournalThirdList = By.cssSelector("");
-    private By AcademicJournalFourthList = By.cssSelector("");
-    private By AcademicJournalFifthList = By.cssSelector("");
-    private By AcademicJournalSixthList = By.cssSelector("");
-    private By AcademicJournalsSeventhTitle = By.cssSelector("");
-    private By AcademicJournalEighthList = By.cssSelector("");
-    private By AcademicJournalNinthList = By.cssSelector("");
-    private By AcademicJournalTenthList = By.cssSelector("");
-    private By AcademicJournalEleventhList = By.cssSelector("");
-    private By AcademicJournalTwelfthList = By.cssSelector("");
-    private By AcademicJournalThirteenthList = By.cssSelector("");
-    private By AcademicJournalFourteenthList = By.cssSelector("");
-    private By AcademicJournalFifteenthList = By.cssSelector("");
-    private By AcademicJournalSixteenthList = By.cssSelector("");
-    private By AcademicJournalSeventeenthList = By.cssSelector("");
-    private By AcademicJournalEighteenthList = By.cssSelector("");
-    private By AcademicJournalNineteenthList = By.cssSelector("");
-    private By CommissionsAndBoardsTitle = By.cssSelector("");
-    private By UnitsAffiliatedToTheRectorateTitle = By.cssSelector("");
-    private By TubaImage = By.cssSelector("");
-    private By TubaTitle = By.cssSelector("");
-    private By YokImage = By.cssSelector("");
-    private By YokTitle = By.cssSelector("");
-    private By TubImage = By.cssSelector("");
-    private By TubTitle = By.cssSelector("");
-    private By IlanImage = By.cssSelector("");
-    private By IlanTitle = By.cssSelector("");
-    private By BalkanUniversitiesAssociationImage = By.cssSelector("");
-    private By BalkanUniversitiesAssociationTitle = By.cssSelector("");
-    private By BalkanTubitakImage = By.cssSelector("");
-    private By BalkanTubitakTitle = By.cssSelector("");
-    private By TrakyaUniversityBridgeToTheFutureLogo = By.cssSelector("");
-    private By FooterInformation  = By.cssSelector("");
-    private By FooterSecondInformation = By.cssSelector("");
-    private By FooterCallLogo = By.cssSelector("");
-    private By FooterThirdInformation = By.cssSelector("");
-    private By FooterCallSecondLogo = By.cssSelector("");
-    private By FooterFourthInformation = By.cssSelector("");
-    private By FooterFaxLogo = By.cssSelector("");
-    private By FooterFifthInformation = By.cssSelector("");
-    private By FooterMailLogo = By.cssSelector("");
-    private By FooterSixthInformation = By.cssSelector("");
-    private By FooterEighthInformation = By.cssSelector("");
-    private By FooterWorldLogo = By.cssSelector("");
-    private By FooterTitle = By.cssSelector("");
-    private By FooterSecondTitle = By.cssSelector("");
-    private By FooterThirdTitle = By.cssSelector("");
-    private By FooterFifthTitle = By.cssSelector("");
-    private By FooterSixthTitle = By.cssSelector("");
-    private By FooterSeventhTitle = By.cssSelector("");
-    private By FooterEighthTitle = By.cssSelector("");
-    private By FooterNinthTitle = By.cssSelector("");
-    private By FooterTenthTitle = By.cssSelector("");
-    private By FooterEleventhTitle = By.cssSelector("");
-    private By FooterTwelfthTitle = By.cssSelector("");
-    private By FooterThirteenthTitle = By.cssSelector("");
-    private By FooterFourteenthTitle = By.cssSelector("");
-    private By FooterFifteenthTitle = By.cssSelector("");
-    private By FooterSixteenthTitle = By.cssSelector("");
-    private By FooterSeventeenthTitle = By.cssSelector("");
-    private By FooterEighteenthTitle = By.cssSelector("");
-    private By FooterNineteenthTitle = By.cssSelector("");
-    private By FooterTwentiethTitle = By.cssSelector("");
-    private By FooterTwentyFirstTitle = By.cssSelector("");
-    private By FooterTwentySecondTitle = By.cssSelector("");
-    private By FooterTwentyThirdTitle = By.cssSelector("");
-    private By FooterTwentyFourthTitle = By.cssSelector("");
-    private By FooterTwentyFifthTitle = By.cssSelector("");
-    private By FooterTwentySixthTitle = By.cssSelector("");
-    private By FooterTwentySeventhTitle = By.cssSelector("");
-    private By FooterTwentyEighthTitle = By.cssSelector("");
-    private By FooterTwentyNinthTitle = By.cssSelector("");
-    private By FooterThirtiethTitle = By.cssSelector("");
-    private By FooterThirtyFirstTitle = By.cssSelector("");
-    private By FooterThirtySecondTitle = By.cssSelector("");
-    private By FooterThirtyThirdTitle = By.cssSelector("");
-    private By FooterFacebookLogo = By.cssSelector("");
-    private By FooterXLogo = By.cssSelector("");
-    private By FooterYoutubeLogo = By.cssSelector("");
-    private By FooterInstagramLogo = By.cssSelector("");
-    private By FooterThirtyFourthTitle = By.cssSelector("");
-    private By FooterForkKnifeLogo = By.cssSelector("");
-    private By FooterThirtyFifthTitle = By.cssSelector("");
-    private By FooterThirtySixthTitle = By.cssSelector("");
-    private By FooterThirtySeventhTitle = By.cssSelector("");
-    private By FooterThirtyEighthTitle = By.cssSelector("");
-    private By FooterThirtyNinthTitle = By.cssSelector("");
-    private By FooterFortiethTitle = By.cssSelector("");
+    private By TrakyaUniversityLogo = By.cssSelector("[alt='Trakya Üniversitesi']");
+    private By NavigationAreaTitle = By.cssSelector("#navbar > li:nth-of-type(1) > [href='javascript:void(0);']");
+    private By NavigationAreaSecondTitle = By.cssSelector("#navbar > li:nth-of-type(2) > [href='javascript:void(0);']");
+    private By NavigationAreaThirdTitle = By.cssSelector("#navbar > li:nth-of-type(3) > [href='javascript:void(0);']");
+    private By NavigationAreaFourthTitle = By.cssSelector("#navbar > li:nth-of-type(4) > [href='javascript:void(0);']");
+    private By NavigationAreaFifthTitle = By.cssSelector("[href='https://e-egitim.trakya.edu.tr/']");
+    private By NavigationAreaSixthTitle = By.cssSelector("#navbar > li:nth-of-type(6) > [href='javascript:void(0);']");
+    private By NavigationAreaSeventhTitle = By.cssSelector(".bg-theme-color-2 > .hidden-sm");
+    private By NewsTitleSection = By.cssSelector("#haberler.row > div:nth-of-type(1) span");
+    private By NewsSecondTitle = By.cssSelector(".ml-10[href='/tum-haberler']");
+    private By PressTitle = By.cssSelector("[href='/basinda-universitemiz']");
+    private By AnnouncementsTitle = By.cssSelector("#duyurular > .widget-title > span");
+    private By AnnouncementsSecondTitle = By.cssSelector(".ml-10[href='/tum-duyurular']");
+    private By EventsTitle = By.cssSelector("#etkinlikler span");
+    private By EventsSecondTitle = By.cssSelector(".ml-10[href='/tum-etkinlikler']");
+    private By NewsFromOtherUniversitiesTitle = By.cssSelector("#diger span");
+    private By NewsFromOtherUniversitiesSecondTitle = By.cssSelector("[href='/diger-haberler']");
+    private By NumbersOnHome = By.cssSelector("#funfacts > .row > div:nth-of-type(1) .text-uppercase");
+    private By SecondNumbers = By.cssSelector("#funfacts div:nth-of-type(2) .text-uppercase");
+    private By ThirdNumbers = By.cssSelector("#funfacts div:nth-of-type(3) .text-uppercase");
+    private By FourthNumbers = By.cssSelector("#funfacts div:nth-of-type(4) .text-uppercase");
+    private By FifthNumbers = By.cssSelector("#funfacts div:nth-of-type(5) .text-uppercase");
+    private By SixthNumbers = By.cssSelector("#funfacts div:nth-of-type(6) .text-uppercase");
+    private By PromotionalPresentationTitle = By.cssSelector(".mb-10.col-md-12 > div:nth-of-type(2) span");
+    private By PromotionalPresentationVideo = By.cssSelector("[alt='Tanıtım Sunumu']");
+    private By OurMuseumsTitle = By.cssSelector(".mb-10.col-md-12 > div:nth-of-type(3) span");
+    private By OurMuseumsVideo = By.cssSelector("[src='/images/muze.jpg']");
+    private By BalkanReportTitle = By.cssSelector(".text-center.widget-title > span");
+    private By BalkanReportImage = By.cssSelector("[alt='Balkan Raporu']");
+    private By StudentScholarshipProjectsImage = By.cssSelector("#grid .thumb [href='/rektorumuzun-ogrenci-burs-projeleri-hakkindaki-aciklamalari']");
+    private By StudentScholarshipProjectsTitle = By.cssSelector(".ml-m15px");
+    private By LibraryImage = By.cssSelector("#grid .thumb [href='https://kutuphane.trakya.edu.tr/']");
+    private By LibraryTitle = By.cssSelector("#grid [href='https://kutuphane.trakya.edu.tr/'] .title");
+    private By EdirneImage = By.cssSelector("#grid .thumb [href='/edirne-tanitimi']");
+    private By EdirneTitle = By.cssSelector("#grid [href='/edirne-tanitimi'] .title");
+    private By MuseumsImage = By.cssSelector("#grid .thumb [href='https://muzelerimiz.trakya.edu.tr/']");
+    private By MuseumsTitle = By.cssSelector("#grid [href='https://muzelerimiz.trakya.edu.tr/'] .title");
+    private By OurConcertsImage = By.cssSelector("#grid .thumb [href='/home/tumkonserler']");
+    private By OurConcertsTitle = By.cssSelector("#grid [href='/home/tumkonserler'] .title");
+    private By AtaturkCornerImage = By.cssSelector("#grid .thumb [href='/ataturk-kosesi']");
+    private By AtaturkCornerTitle = By.cssSelector("#grid [href='/ataturk-kosesi'] .title");
+    private By AcademicJournalsTitle = By.cssSelector("[href='#tabHome1']");
+    private By CommissionsAndBoardsTitle = By.cssSelector("[href='#tabHome2']");
+    private By UnitsAffiliatedToTheRectorateTitle = By.cssSelector("[href='#tabHome3']");
+    private By TubaImage = By.cssSelector(".owl-stage > div:nth-of-type(10) [src='/files/anasayfa_dis_baglantilar/tuba.png']");
+    private By YokImage = By.cssSelector(".owl-stage > div:nth-of-type(9) [src='/files/anasayfa_dis_baglantilar/osym.png']");
+    private By TubImage = By.cssSelector(".owl-stage > div:nth-of-type(7) [src='/files/anasayfa_dis_baglantilar/tubitak.png']");
+    private By IlanImage = By.cssSelector(".owl-stage > div:nth-of-type(8) [src='/files/anasayfa_dis_baglantilar/teknopark.png']");
+    private By BalkanUniversitiesAssociationImage = By.cssSelector("[src='/images/white.png']");
+    private By BalkanUniversitiesAssociationTitle = By.cssSelector(".col-md-3.col-sm-12 p");
+    private By BalkanTubitakImage = By.cssSelector(".col-md-3.col-sm-12 p");
+    private By BalkanTubitakTitle = By.cssSelector(".owl-stage > div:nth-of-type(7) span");
+    private By TrakyaUniversityBridgeToTheFutureLogo = By.cssSelector("[src='/images/white.png']");
+    private By FooterInformation  = By.cssSelector(".col-md-3.col-sm-12 p");
+    private By FooterSecondInformation = By.cssSelector(".col-md-3.col-sm-12 p");
+    private By FooterCallLogo = By.cssSelector(".col-md-3.col-sm-12 li:nth-of-type(1) > .fa");
+    private By FooterThirdInformation = By.cssSelector(".col-md-3.col-sm-12 li:nth-of-type(1)");
+    private By FooterCallSecondLogo = By.cssSelector(".col-md-3.col-sm-12 li:nth-of-type(2) > .fa");
+    private By FooterFourthInformation = By.cssSelector(".col-md-3.col-sm-12 li:nth-of-type(2)");
+    private By FooterFaxLogo = By.cssSelector(".fa-print");
+    private By FooterFifthInformation = By.cssSelector(".col-md-3.col-sm-12 li:nth-of-type(3)");
+    private By FooterMailLogo = By.cssSelector(".fa-envelope-o");
+    private By FooterSixthInformation = By.cssSelector(".col-md-3.col-sm-12 li:nth-of-type(4)");
+    private By FooterEighthInformation = By.cssSelector(".col-md-3.col-sm-12 li:nth-of-type(5)");
+    private By FooterWorldLogo = By.cssSelector(".fa-globe");
+    private By FooterTitle = By.cssSelector(".border-bottom > div:nth-of-type(2) .widget-title");
+    private By FooterSecondTitle = By.cssSelector("[href='https://abs.trakya.edu.tr/']");
+    private By FooterThirdTitle = By.cssSelector("[href='https://akademiktesvik.trakya.edu.tr/']");
+    private By FooterFifthTitle = By.cssSelector("[href='https://yoksis.yok.gov.tr/']");
+    private By FooterSixthTitle = By.cssSelector("[href='https://oyp.trakya.edu.tr/']");
+    private By FooterSeventhTitle = By.cssSelector("[href='https://bap.trakya.edu.tr']");
+    private By FooterEighthTitle = By.cssSelector("[href='https://ekders.trakya.edu.tr/']");
+    private By FooterNinthTitle = By.cssSelector("[href='https://bologna.trakya.edu.tr/']");
+    private By FooterTenthTitle = By.cssSelector("[href='https://eduroam.trakya.edu.tr/']");
+    private By FooterEleventhTitle = By.cssSelector("[href='https://disiliskiler.trakya.edu.tr/']");
+    private By FooterTwelfthTitle = By.cssSelector(".border-bottom [href='https://kalite.trakya.edu.tr/']");
+    private By FooterThirteenthTitle = By.cssSelector("[href='https://yokak.gov.tr/']");
+    private By FooterFourteenthTitle = By.cssSelector(".border-bottom [href='https://donersermaye.trakya.edu.tr/']");
+    private By FooterFifteenthTitle = By.cssSelector(".border-bottom [href='https://basin.trakya.edu.tr/']");
+    private By FooterSixteenthTitle = By.cssSelector("[href='https://engelsiz.trakya.edu.tr']");
+    private By FooterSeventeenthTitle = By.cssSelector("[href='https://bagimsizhayat.trakya.edu.tr']");
+    private By FooterEighteenthTitle = By.cssSelector("[href='https://vakif.trakya.edu.tr/']");
+    private By FooterNineteenthTitle = By.cssSelector("[href='https://balkanarboretumu.trakya.edu.tr/']");
+    private By FooterTwentiethTitle = By.cssSelector("[href='https://herbaryum.trakya.edu.tr']");
+    private By FooterTwentyFirstTitle = By.cssSelector("[href='https://yesil.trakya.edu.tr'] span");
+    private By FooterTwentySecondTitle = By.cssSelector("[href='https://edirnekirmizisi.trakya.edu.tr'] span");
+    private By FooterTwentyThirdTitle = By.cssSelector("[href='https://merkezlab.trakya.edu.tr'] span");
+    private By FooterTwentyFourthTitle = By.cssSelector("[href='https://mezun.trakya.edu.tr/']");
+    private By FooterTwentyFifthTitle = By.cssSelector("[href='https://kovkom.trakya.edu.tr']");
+    private By FooterTwentySixthTitle = By.cssSelector("[href='https://covid.trakya.edu.tr']");
+    private By FooterTwentySeventhTitle = By.cssSelector("[href='https://kvk.trakya.edu.tr/']");
+    private By FooterTwentyEighthTitle = By.cssSelector("[href='https://kutuphane.trakya.edu.tr/pages/trakya-universitesi-yayinlari-satisi#.WvFOi4iFOUk']");
+    private By FooterTwentyNinthTitle = By.cssSelector("[href='https://genelsekreterlik.trakya.edu.tr/pages/bilgi-edinme']");
+    private By FooterThirtiethTitle = By.cssSelector("[href='https://www.cimer.gov.tr/']");
+    private By FooterThirtyFirstTitle = By.cssSelector("[href='https://dilekoneri.trakya.edu.tr/']");
+    private By FooterThirtySecondTitle = By.cssSelector(".mt-30.row > .col-md-2 .widget-title");
+    private By FooterThirtyThirdTitle = By.cssSelector(".mt-30.row > .col-md-3 .widget-title");
+    private By FooterFacebookLogo = By.cssSelector(".fa-facebook");
+    private By FooterXLogo = By.cssSelector(".fa-x-twitter");
+    private By FooterYoutubeLogo = By.cssSelector(".fa-youtube");
+    private By FooterInstagramLogo = By.cssSelector(".fa-instagram");
+    private By FooterThirtyFourthTitle = By.cssSelector(".col-md-7 .widget-title");
+    private By FooterForkKnifeLogo = By.cssSelector(".fa-lg");
+    private By FooterThirtyFifthTitle = By.cssSelector(".text-black-777");
+    private By FooterThirtySixthTitle = By.cssSelector("[href='https://bidb.trakya.edu.tr']");
+    private By FooterThirtySeventhTitle = By.cssSelector(".text-black-777");
+    private By FooterThirtyEighthTitle = By.cssSelector(".sm-text-center.list-inline [href='https://basin.trakya.edu.tr/']");
+    private By FooterThirtyNinthTitle = By.cssSelector("[href='https://www.trakya.edu.tr/erehber/']");
+    private By FooterFortiethTitle = By.cssSelector("[href='https://goo.gl/maps/RWR7FkoTYXXwYNfA6']");
 
     public void ShouldSeeTrakyaUniversityLogo() {
         elementHelper.checkElement(TrakyaUniversityLogo);
@@ -321,60 +298,7 @@ public class HomePage {
         return elementHelper.getText(AcademicJournalsTitle);
     }
 
-    public String ShouldSeeAcademicJournalList() {
-        return elementHelper.getText(AcademicJournalList);
-    }
 
-    public String ShouldSeeAcademicJournalSecondList() {
-        return elementHelper.getText(AcademicJournalSecondList);
-    }
-
-    public String ShouldSeeAcademicJournalThirdList() {
-        return elementHelper.getText(AcademicJournalThirdList);
-    }
-
-    public String ShouldSeeAcademicJournalFourthList() {
-        return elementHelper.getText(AcademicJournalFourthList);
-    }
-
-    public String ShouldSeeAcademicJournalFifthList() {
-        return elementHelper.getText(AcademicJournalFifthList);
-    }
-
-    public String ShouldSeeAcademicJournalSixthList() {
-        return elementHelper.getText(AcademicJournalSixthList);
-    }
-
-    public String ShouldSeeAcademicJournalsSeventhTitle() {return elementHelper.getText(AcademicJournalsSeventhTitle);
-    }
-    public String ShouldSeeAcademicJournalEighthList() {
-        return elementHelper.getText(AcademicJournalEighthList);
-    }
-
-    public String ShouldSeeAcademicJournalNinthList() {
-        return elementHelper.getText(AcademicJournalNinthList);
-    }
-
-
-    public String ShouldSeeAcademicJournalTenthList() { return elementHelper.getText(AcademicJournalTenthList); }
-
-    public String ShouldSeeAcademicJournalEleventhList() { return elementHelper.getText(AcademicJournalEleventhList); }
-
-    public String ShouldSeeAcademicJournalTwelfthList() { return elementHelper.getText(AcademicJournalTwelfthList);}
-
-    public String ShouldSeeAcademicJournalThirteenthList() { return elementHelper.getText(AcademicJournalThirteenthList);}
-
-    public String ShouldSeeAcademicJournalFourteenthList() { return elementHelper.getText(AcademicJournalFourteenthList);}
-
-    public String ShouldSeeAcademicJournalFifteenthList() { return elementHelper.getText(AcademicJournalFifteenthList);}
-
-    public String ShouldSeeAcademicJournalSixteenthList() { return elementHelper.getText(AcademicJournalSixteenthList);}
-
-    public String ShouldSeeAcademicJournalSeventeenthList() { return elementHelper.getText(AcademicJournalSeventeenthList);}
-
-    public String ShouldSeeAcademicJournalEighteenthList() { return elementHelper.getText(AcademicJournalEighteenthList);}
-
-    public String ShouldSeeAcademicJournalNineteenthList() { return elementHelper.getText(AcademicJournalNineteenthList);}
 
     public String ShouldSeeCommissionsAndBoardsTitle() { return elementHelper.getText(CommissionsAndBoardsTitle);}
 
@@ -382,19 +306,11 @@ public class HomePage {
 
     public void ShouldSeeTubaImage() { elementHelper.checkElement(TubaImage);}
 
-    public String ShouldSeeTubaTitle() { return elementHelper.getText(TubaTitle);}
-
     public void ShouldSeeYokImage() { elementHelper.checkElement(YokImage);}
-
-    public String ShouldSeeYokTitle() { return elementHelper.getText(YokTitle);}
 
     public void ShouldSeeTubImage() { elementHelper.checkElement(TubImage);}
 
-    public String ShouldSeeTubTitle() { return elementHelper.getText(TubTitle);}
-
     public void ShouldSeeIlanImage() { elementHelper.checkElement(IlanImage);}
-
-    public String ShouldSeeIlanTitle() { return elementHelper.getText(IlanTitle);}
 
     public void ShouldSeeBalkanUniversitiesAssociationImage() { elementHelper.checkElement(BalkanUniversitiesAssociationImage);}
 

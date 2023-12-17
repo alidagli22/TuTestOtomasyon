@@ -13,6 +13,8 @@ public class DriverFactory {
 
 
     public static void initializeDriver() {
+        WebDriverManager.chromedriver().clearDriverCache();
+        WebDriverManager.chromedriver().clearResolutionCache();
         WebDriverManager.chromedriver().setup();
         driverThreadLocal.set(new ChromeDriver());
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

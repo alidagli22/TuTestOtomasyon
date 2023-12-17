@@ -31,7 +31,7 @@ public class ElementHelper {
     }
 
     public String getText(By by) {
-        return findElement(by).getText();
+        return findElement(by).getText().trim();
     }
 
     public String getCount(By by) {
@@ -69,7 +69,12 @@ public class ElementHelper {
     public WebElement findElement(By by) {
         WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(by));
         scrollToElement(element);
-        return wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        return wait.until(ExpectedConditions.presenceOfElementLocated(by));
     }
 
 

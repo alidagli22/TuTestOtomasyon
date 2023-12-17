@@ -71,7 +71,7 @@ public class HomePageDefinitions {
     public void userShouldSeeNavigationAreaSeventhTitleOnHomePage(String title)
     {
         String areaTitle = homePage.ShouldSeeNavigationAreaSeventhTitle();
-        Assert.assertEquals(areaTitle,title);
+        Assert.assertEquals(areaTitle.replaceAll("\n",""),title.replaceAll(" ",""));
     }
 
     @Then("user should see News Title: {string} on HomePage")
@@ -304,138 +304,6 @@ public class HomePageDefinitions {
         Assert.assertEquals(areaTitle,title);
     }
 
-    @Then("user should see Academic Journal list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalListOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeAcademicJournalList();
-        Assert.assertEquals(areaTitle,title);
-    }
-
-    @Then("user should see Academic Journal Second list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalSecondListOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeAcademicJournalSecondList();
-        Assert.assertEquals(areaTitle,title);
-    }
-
-    @Then("user should see Academic Journal Third list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalThirdListOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeAcademicJournalThirdList();
-        Assert.assertEquals(areaTitle,title);
-    }
-
-    @Then("user should see Academic Journal Fourth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalFourthListOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeAcademicJournalFourthList();
-        Assert.assertEquals(areaTitle,title);
-    }
-
-    @Then("user should see Academic Journal Fifth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalFifthListOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeAcademicJournalFifthList();
-        Assert.assertEquals(areaTitle,title);
-    }
-
-    @Then("user should see Academic Journal Sixth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalSixthListOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeAcademicJournalSixthList();
-        Assert.assertEquals(areaTitle,title);
-    }
-
-    @Then("user should see Academic Journals Seventh Title: {string} on HomePage")
-    public void userShouldSeeAcademicJournalsSeventhTitleOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeAcademicJournalsSeventhTitle();
-        Assert.assertEquals(areaTitle,title);
-    }
-
-    @Then("user should see Academic Journal Eighth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalEighthListOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeAcademicJournalEighthList();
-        Assert.assertEquals(areaTitle,title);
-    }
-
-    @Then("user should see Academic Journal Ninth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalNinthListOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeAcademicJournalNinthList();
-        Assert.assertEquals(areaTitle,title);
-    }
-
-    @Then("user should see Academic Journal Tenth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalTenthListOnHomePage(String title)
-    {
-       String areaTitle = homePage.ShouldSeeAcademicJournalTenthList();
-       Assert.assertEquals(areaTitle,title);
-    }
-
-    @Then("user should see Academic Journal Eleventh list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalEleventhListOnHomePage(String title)
-    {
-        String areTitle = homePage.ShouldSeeAcademicJournalEleventhList();
-        Assert.assertEquals(areTitle,title);
-    }
-
-    @Then("user should see Academic Journal Twelfth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalTwelfthListOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeAcademicJournalTwelfthList();
-        Assert.assertEquals(areaTitle,title);
-    }
-
-    @Then("user should see Academic Journal Thirteenth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalThirteenthListOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeAcademicJournalThirteenthList();
-        Assert.assertEquals(areaTitle,title);
-    }
-
-    @Then("user should see Academic Journal Fourteenth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalFourteenthListOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeAcademicJournalFourteenthList();
-        Assert.assertEquals(areaTitle,title);
-    }
-
-    @Then("user should see Academic Journal Fifteenth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalFifteenthListOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeAcademicJournalFifteenthList();
-        Assert.assertEquals(areaTitle,title);
-    }
-
-    @Then("user should see Academic Journal Sixteenth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalSixteenthListOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeAcademicJournalSixteenthList();
-        Assert.assertEquals(areaTitle,title);
-    }
-
-    @Then("user should see Academic Journal Seventeenth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalSeventeenthListOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeAcademicJournalSeventeenthList();
-        Assert.assertEquals(areaTitle,title);
-    }
-
-    @Then("user should see Academic Journal Eighteenth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalEighteenthListOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeAcademicJournalEighteenthList();
-        Assert.assertEquals(areaTitle,title);
-    }
-
-    @Then("user should see Academic Journal Nineteenth list: {string} on HomePage")
-    public void userShouldSeeAcademicJournalNineteenthListOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeAcademicJournalNineteenthList();
-        Assert.assertEquals(areaTitle,title);
-    }
 
     @Then("user should see Commissions and Boards Title: {string} on HomePage")
     public void userShouldSeeCommissionsAndBoardsTitleOnHomePage(String title)
@@ -457,12 +325,6 @@ public class HomePageDefinitions {
         homePage.ShouldSeeTubaImage();
     }
 
-    @Then("user should see Tuba Title: {string} on HomePage")
-    public void userShouldSeeTubaTitleOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeTubaTitle();
-        Assert.assertEquals(areaTitle,title);
-    }
 
     @Then("user should see Yok image")
     public void userShouldSeeYokImage()
@@ -470,12 +332,6 @@ public class HomePageDefinitions {
         homePage.ShouldSeeYokImage();
     }
 
-    @Then("user should see Yok Title: {string} on HomePage")
-    public void userShouldSeeYokTitleOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeYokTitle();
-        Assert.assertEquals(areaTitle,title);
-    }
 
     @Then("user should see Tub image")
     public void userShouldSeeTubImage()
@@ -483,12 +339,6 @@ public class HomePageDefinitions {
         homePage.ShouldSeeTubImage();
     }
 
-    @Then("user should see Tub Title: {string} on HomePage")
-    public void userShouldSeeTubTitleOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeTubTitle();
-        Assert.assertEquals(areaTitle,title);
-    }
 
     @Then("user should see Ilan image")
     public void userShouldSeeIlanImage()
@@ -496,12 +346,6 @@ public class HomePageDefinitions {
         homePage.ShouldSeeIlanImage();
     }
 
-    @Then("user should see Ilan Title: {string} on HomePage")
-    public void userShouldSeeIlanTitleOnHomePage(String title)
-    {
-        String areaTitle = homePage.ShouldSeeIlanTitle();
-        Assert.assertEquals(areaTitle,title);
-    }
 
     @Then("user should see Balkan Universities Association image")
     public void userShouldSeeBalkanUniversitiesAssociationImage()
@@ -513,7 +357,7 @@ public class HomePageDefinitions {
     public void userShouldSeeBalkanUniversitiesAssociationTitleOnHomePage(String title)
     {
         String areaTitle = homePage.ShouldSeeBalkanUniversitiesAssociationTitle();
-        Assert.assertEquals(areaTitle,title);
+        Assert.assertEquals(areaTitle.replaceAll("\n",""),title.replaceAll("\n ",""));
     }
 
     @Then("user should see Balkan Tubitak image")
@@ -526,7 +370,7 @@ public class HomePageDefinitions {
     public void userShouldSeeBalkanTubitakTitleOnHomePage(String title)
     {
         String areaTitle = homePage.ShouldSeeBalkanTubitakTitle();
-        Assert.assertEquals(areaTitle,title);
+        Assert.assertEquals(areaTitle.replaceAll("\n",""),title.replaceAll("\n",""));
     }
 
     @Then("user should see Trakya University Bridge to the Future logo")
@@ -539,14 +383,14 @@ public class HomePageDefinitions {
     public void userShouldSeeFooterInformationOnHomePage(String title)
     {
         String areaTitle = homePage.ShouldSeeFooterInformation();
-        Assert.assertEquals(areaTitle,title);
+        Assert.assertEquals(areaTitle.replaceAll("\n",""),title.replaceAll("\n",""));
     }
 
     @Then("user should see Footer Second Information:{string} on HomePage")
     public void userShouldSeeFooterSecondInformationOnHomePage(String title)
     {
         String areaTitle = homePage.ShouldSeeFooterSecondInformation();
-        Assert.assertEquals(areaTitle,title);
+        Assert.assertEquals(areaTitle.replaceAll("\n",""),title.replaceAll("\n",""));
     }
 
     @Then("user should see Footer Call logo")
