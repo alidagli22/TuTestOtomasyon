@@ -162,7 +162,7 @@ Feature: Navigation
   Scenario:
     Given user on the Home Page
     When user click on Kalite Koordinatorlugu Page Button
-    Then user shoul see Kalite Koordinatorlugu Page
+    Then user should see Kalite Koordinatorlugu Page
 
   Scenario:
     Given user on the Home Page
