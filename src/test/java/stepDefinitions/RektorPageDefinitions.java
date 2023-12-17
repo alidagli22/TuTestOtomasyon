@@ -3,6 +3,7 @@ package stepDefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.testng.Assert;
 import pages.HomePage;
 import pages.RektorPage;
 import utils.DriverFactory;
@@ -10,16 +11,21 @@ import utils.DriverFactory;
 public class RektorPageDefinitions {
 
     RektorPage rektor = new RektorPage(DriverFactory.getDriver());
+
     @Given("user on the rektor page")
     public void userOnTheRektorPage() {
+        rektor.userOnTheRektorPage();
     }
 
     @Then("user should see Rektor picture")
     public void userShouldSeeRektorPicture() {
+        rektor.ShouldSeeRektorPicture();
     }
 
     @Then("user should see {string} title")
-    public void userShouldSeeTitle(String arg0) {
+    public void userShouldSeeTitle(String title) {
+        String areaTitle = rektor.ShouldSeeTitle();
+        Assert.assertEquals(areaTitle , title);
     }
 
     @Then("user should see rektor name {string}")
