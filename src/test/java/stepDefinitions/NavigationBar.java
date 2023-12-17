@@ -2,10 +2,16 @@ package stepDefinitions;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pages.HomePage;
+import pages.NavigationBarPage;
+import utils.DriverFactory;
 
 public class NavigationBar {
+    NavigationBarPage navigation = new NavigationBarPage(DriverFactory.getDriver());
     @When("user click Rektor Page Button")
     public void userClickRektorPageButton() {
+
+
     }
 
     @Then("user should see Rektor Page")
@@ -314,5 +320,9 @@ public class NavigationBar {
 
     @Then("user should see Akredite Programlar Page")
     public void userShouldSeeAkrediteProgramlarPage() {
+    }
+
+    @Then("user should see Kalite Koordinatorlugu Page")
+    public void userShouldSeeKaliteKoordinatorluguPage() {
     }
 }

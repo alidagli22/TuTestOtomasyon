@@ -3,8 +3,13 @@ package stepDefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pages.HomePage;
+import pages.RektorPage;
+import utils.DriverFactory;
 
 public class RektorPageDefinitions {
+
+    RektorPage rektor = new RektorPage(DriverFactory.getDriver());
     @Given("user on the rektor page")
     public void userOnTheRektorPage() {
     }

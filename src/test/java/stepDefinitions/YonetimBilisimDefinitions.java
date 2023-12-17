@@ -3,8 +3,13 @@ package stepDefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pages.RektorPage;
+import pages.YonetimBilisimPage;
+import utils.DriverFactory;
 
 public class YonetimBilisimDefinitions {
+    YonetimBilisimPage yonetim = new YonetimBilisimPage(DriverFactory.getDriver());
+
     @Given("user on the Yonetim Bilisim Home Page")
     public void userOnTheYonetimBilisimHomePage() {
     }
