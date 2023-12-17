@@ -6,7 +6,7 @@ Feature:Rektor
     Then user should see Rektor picture
     Then user should see "Biyografi" title
     Then user should see rektor name "Prof. Dr. Erhan TABAKOĞLU"
-    Then user should see Yayınlar title
+    Then user should see Yayinlar title
     Then user should see Bildiri title
 
 
