@@ -7,17 +7,14 @@ import utils.ElementHelper;
 public class RektorPage {
 
     private ElementHelper elementHelper;
-    private By RektorPicture = By.cssSelector("");
-    private By  Title = By.cssSelector("");
-    private By  RektorName = By.cssSelector("");
-    private By  YayinlarTitle = By.cssSelector("");
-    private By  BildiriTitle = By.cssSelector("");
-    private By  TrakyaUniversitesiButton = By.cssSelector("");
-    private By  TrakyaUniversitesiPage = By.cssSelector("");
-    private By  PersonelAramaButton = By.cssSelector("");
-    private By  PersonelAramaPage = By.cssSelector("");
-    private By  DuyuruTakibi = By.cssSelector("");
-    private By  DuyuruTakibiPage = By.cssSelector("");
+    private By RektorPicture = By.cssSelector("[src='//bys.trakya.edu.tr/cache/img-thumb/4/40/404/4042/4042576199c501bb4aef9461fc0a00d7.png']");
+    private By  Title = By.cssSelector("#pw_biyografi");
+    private By  RektorName = By.cssSelector("#nln");
+    private By  YayinlarTitle = By.cssSelector("#pw_yayinlar");
+    private By  BildiriTitle = By.cssSelector("#body-layout div:nth-of-type(4) p");
+    private By  TrakyaUniversitesiButton = By.cssSelector(".header-left-menu [href='http://www.trakya.edu.tr']");
+    private By  PersonelAramaPage = By.cssSelector(".header-left-menu li:nth-of-type(2)");
+    private By  DuyuruTakibi = By.cssSelector(".header-left-menu li:nth-of-type(3)");
 
 
 
@@ -55,24 +52,25 @@ public class RektorPage {
         elementHelper.click(TrakyaUniversitesiButton);
     }
 
-    public void ShouldSeeTrakyaUniversitesiPage() {
-        elementHelper.checkElement(TrakyaUniversitesiPage);
+    public String ShouldSeeTrakyaUniversitesiPage() {
+        return elementHelper.getUrl();
     }
 
-    public void ClickOnPersonelAramaButton() {
-        elementHelper.click(PersonelAramaButton);
-    }
-
-    public void ShouldSeePersonelAramaPage() {
+    public void   ClickOnPersonelAramaButton() {
         elementHelper.checkElement(PersonelAramaPage);
+    }
+
+    public String  ShouldSeePersonelAramaPage() {
+        return  elementHelper.getUrl();
+
     }
 
     public void ClickOnDuyuruTakibi() {
         elementHelper.click(DuyuruTakibi);
     }
 
-    public void ShouldSeeDuyuruTakibiPage() {
-        elementHelper.checkElement(DuyuruTakibiPage);
+    public String  ShouldSeeDuyuruTakibiPage() {
+        return elementHelper.getUrl();
     }
 }
 

@@ -4,7 +4,7 @@ Feature:Rektor
   Scenario:
     Given user on the rektor page
     Then user should see Rektor picture
-    Then user should see "Biyografi" title
+    Then user should see "» Biyografi" title
     Then user should see rektor name "Prof. Dr. Erhan TABAKOĞLU"
     Then user should see Yayinlar title
     Then user should see Bildiri title

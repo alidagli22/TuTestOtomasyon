@@ -56,17 +56,24 @@ public class RektorPageDefinitions {
 
     @Then("user should see trakya universitesi page")
     public void userShouldSeeTrakyaUniversitesiPage() {
-        rektor.ShouldSeeTrakyaUniversitesiPage();
+       String text =  rektor.ShouldSeeTrakyaUniversitesiPage();
+       String url = "https://www.trakya.edu.tr/";
+       Assert.assertEquals(text,url);
     }
+
 
     @When("user click on Personel Arama button")
     public void userClickOnPersonelAramaButton() {
         rektor.ClickOnPersonelAramaButton();
+
     }
 
     @Then("user should see Personel Arama Page")
     public void userShouldSeePersonelAramaPage() {
-        rektor.ShouldSeePersonelAramaPage();
+        String text = rektor.ShouldSeePersonelAramaPage();
+        String url = "https://www.trakya.edu.tr/personel/";
+        Assert.assertEquals(text,url);
+
     }
 
     @When("user click on Duyuru Takibi")
@@ -76,6 +83,8 @@ public class RektorPageDefinitions {
 
     @Then("user should see Duyuru takibi page")
     public void userShouldSeeDuyuruTakibiPage() {
-        rektor.ShouldSeeDuyuruTakibiPage();
+        String text = rektor.ShouldSeeDuyuruTakibiPage();
+        String url = "https://personel.trakya.edu.tr/son-guncellemeler/";
+        Assert.assertEquals(text,url);
     }
 }
