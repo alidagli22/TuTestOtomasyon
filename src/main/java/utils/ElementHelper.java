@@ -14,6 +14,7 @@ import java.util.List;
 
 public class ElementHelper {
 
+    public static Object openUrl;
     private WebDriver driver;
     private WebDriverWait wait;
     private Actions action;
