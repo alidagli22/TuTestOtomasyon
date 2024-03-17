@@ -455,6 +455,7 @@
       When user click on Idari Button
       When user click on Strateji Gelistirme Daire Baskanligi Page Button
       Then user should see Strateji Gelistirme Daire Baskanligi Page
+
     Scenario:
       Given user on the Rektor Yardimcilari Gorev Dagilimi Page
       When user click on Idari Button
@@ -556,16 +557,81 @@
       When user click on Kalite Guvencesi Button
       Then user should see Kalite Guvencesi Page
 
+    Scenario:
+      Given user on the Rektor Yardimcilari Gorev Dagilimi Page
+      When user click on English Button
+      Then user should see English Title: " ENGLISH" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see English Home Page
+
+    Scenario:
+      Given user on the Rektor Yardimcilari Gorev Dagilimi Page
+      When user click on Kullanici Girisi Button
+      Then user should see Teknokta Page
 
 
+    Scenario:
+      Given user on the Rektor Yardimcilari Gorev Dagilimi Page
+      When user click on Kullanici Girisi Button
+      Then user should see Rektor Yardimcilari Gorev Dagilimi Title: "Rektör Yardımcıları Görev Dağılımları" on Rektor Yardimcilari Gorev Dagilimi Page
 
+    Scenario:
+      Given user on the Rektor Yardimcilari Gorev Dagilimi Page
+      When user click on Metin Aydogdu Button
+      Then user should see Ögrenci İsleri Daire Baskanligi Title: "Öğrenci İşleri Daire Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Ögrenci İsleri Daire Baskanligi Title: "Öğrenci İşleri Daire Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Bilgi Islem Daire Baskanligi Title: "Bilgi İşlem Daire Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Fakulteler Title: "Fakülteler (Güzel Sanatlar Hariç) / Eğitim-Öğretim / Eğitim-Öğretim Komisyonu" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Teknopark Title: "TEKNOPARK" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see BEK Title: "BEK (Bologna Eşgüdüm Komisyonu)" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Yenilikcilik ve Girisimcilik Title: "Yenilikçilik ve Girişimcilik" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see OYP Title: "ÖYP Koordinatörlüğü" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Zorunlu Ortak Dersler Title: "Zorunlu Ortak Dersler" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Bilimsel Dergiler Title: "Bilimsel Dergiler" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Enstituler Title: "Enstitüler (Sağlık Bilimleri, Sosyal Bilimler, Fen Bilimleri, Roman Dili ve Kültürü Araştırmaları)" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Dis Kaynakli Projeler Title: "Dış Kaynaklı Projeler (TÜBİTAK, Kalkınma Ajansı vb.)" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see On Degerlendirme Komisyonu Title: "Ön Değerlendirme Komisyonu" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Yaz Okulu Title: "Yaz Okulu" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Sinai Mulkiyet Degerlendirme Kurulu Title: "Sınai Mülkiyet Değerlendirme Kurulu" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Teknoloji Transfer Uygulama ve Arastirma Merkezi Title: "Teknoloji Transfer Uygulama ve Araştırma Merkezi" on Rektor Yardimcilari Gorev Dagilimi Page
 
+    Scenario:
+      Given user on the Rektor Yardimcilari Gorev Dagilimi Page
+      When user click on Osman Nuri Hatipoglu Button
+      Then user should see Strateji Gelistirme Daire Baskanligi Title: "Strateji Geliştirme Daire Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Yapi Işleri ve Teknik Daire Baskanligi Title: "Yapı İşleri ve Teknik Daire Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Idari ve Mali Isler Daire Baskanligi Title: "İdari ve Mali İşler Daire Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Bilimsel Arastirma Projeleri Title: "Bilimsel Araştırma Projeleri (TÜBAP)" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Saglik Arasirma ve Uygulama Merkezi Title: "Sağlık Araştırma ve Uygulama Merkezi (Hastane)" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Agiz ve Dis Sagligi Uygulama ve Arastirma Merkezi Title: "Ağız ve Diş Sağlığı Uygulama ve Araştırma Merkezi" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Saglikla Ilgili Diger Arastirma ve Uygulama Merkezleri Title: "Sağlıkla İlgili Diğer Araştırma ve Uygulama Merkezleri" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see TU Doner Sermaye Yurutme Kurulu Baskanligi Title: "T.Ü. Döner Sermaye Yürütme Kurulu Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Kiralama İslemleri Title: "Kiralama İşlemleri" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see UAK Title: "ÜAK" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Saglik Bilimleri Bilimsel Arastirma ve Yayın Etigi Kurul Baskanligi Title: "Sağlık Bilimleri Bilimsel Araştırma ve Yayın Etiği Kurul Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Dis Iliskiler Merkez Mudurlugu Title: "Dış İlişkiler Merkez Müdürlüğü" on Rektor Yardimcilari Gorev Dagilimi Page
 
-
-
-
-
-
+    Scenario:
+      Given user on the Rektor Yardimcilari Gorev Dagilimi Page
+      When user click on Ahmet Hamdi Zafer Button
+      Then user should see Kutuphane ve Dokumantasyon Daire Baskanligi Title: "Kütüphane ve Dokümantasyon Daire Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Saglik Kultur ve Spor Daire Baskanligi Title: "Sağlık Kültür ve Spor Daire Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Kongre Merkezleri Title: "Kongre Merkezleri" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Guzel Sanatlar Fakultesi Title: "Güzel Sanatlar Fakültesi" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Devlet Konservatuvarı Title: "Devlet Konservatuvarı" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Balkan Arastirma Enstitusu Title: "Balkan Araştırma Enstitüsü" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see II. Bayezit Kulliyesi Icerisindeki Kuruluslar Title: "II. Bayezit Külliyesi İçerisindeki Kuruluşlar (Sağlık Müzesi, Tıp Medresesi, Tıphane, Aşhane, Taphane, Mumhane)" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Lojmanlar Title: "Lojmanlar" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Arastirma ve Uygulama Merkezleri Title: "Araştırma ve Uygulama Merkezleri (Sağlıkla İlgili Merkezler ve Teknoloji Transfer Uygulama ve Araştırma Merkezi Hariç)" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Sivil Toplum Orgutleri Title: "Sivil Toplum Örgütleri" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Sosyal Faaliyetler Title: "Sosyal Faaliyetler" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Yuksekokullar ve Meslek Yuksekokullari Title: "Yüksekokullar ve Meslek Yüksekokulları" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Engelsiz Universite Birimi Title: "Engelsiz Üniversite Birimi" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Universite Turizm Iliskileri Title: "Üniversite Turizm İlişkileri" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Trakya Universiteler Birligi Title: "Trakya Üniversiteler Birliği" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Balkan Arboretumu ve EDTU Herbaryumu Title: "Balkan Arboretumu ve EDTU Herbaryumu" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Mevzuat Komisyonu Title: "Mevzuat Komisyonu" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Universite Yerel Yonetim Ilıskileri Title: "Üniversite-Yerel Yönetim İlişkileri (Valilik, Belediye ve Kamu Kurumları)" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Yayin Komisyonu Title: "Yayın Komisyonu" on Rektor Yardimcilari Gorev Dagilimi Page
 
 
 
