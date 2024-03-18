@@ -577,8 +577,8 @@
     Scenario:
       Given user on the Rektor Yardimcilari Gorev Dagilimi Page
       When user click on Metin Aydogdu Button
-      Then user should see Ögrenci İsleri Daire Baskanligi Title: "Öğrenci İşleri Daire Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
-      Then user should see Ögrenci İsleri Daire Baskanligi Title: "Öğrenci İşleri Daire Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Ogrenci Isleri Daire Baskanligi Title: "Öğrenci İşleri Daire Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Ogrenci Isleri Daire Baskanligi Title: "Öğrenci İşleri Daire Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
       Then user should see Bilgi Islem Daire Baskanligi Title: "Bilgi İşlem Daire Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
       Then user should see Fakulteler Title: "Fakülteler (Güzel Sanatlar Hariç) / Eğitim-Öğretim / Eğitim-Öğretim Komisyonu" on Rektor Yardimcilari Gorev Dagilimi Page
       Then user should see Teknopark Title: "TEKNOPARK" on Rektor Yardimcilari Gorev Dagilimi Page
@@ -598,7 +598,7 @@
       Given user on the Rektor Yardimcilari Gorev Dagilimi Page
       When user click on Osman Nuri Hatipoglu Button
       Then user should see Strateji Gelistirme Daire Baskanligi Title: "Strateji Geliştirme Daire Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
-      Then user should see Yapi Işleri ve Teknik Daire Baskanligi Title: "Yapı İşleri ve Teknik Daire Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Yapi Isleri ve Teknik Daire Baskanligi Title: "Yapı İşleri ve Teknik Daire Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
       Then user should see Idari ve Mali Isler Daire Baskanligi Title: "İdari ve Mali İşler Daire Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
       Then user should see Bilimsel Arastirma Projeleri Title: "Bilimsel Araştırma Projeleri (TÜBAP)" on Rektor Yardimcilari Gorev Dagilimi Page
       Then user should see Saglik Arasirma ve Uygulama Merkezi Title: "Sağlık Araştırma ve Uygulama Merkezi (Hastane)" on Rektor Yardimcilari Gorev Dagilimi Page
@@ -617,7 +617,7 @@
       Then user should see Saglik Kultur ve Spor Daire Baskanligi Title: "Sağlık Kültür ve Spor Daire Başkanlığı" on Rektor Yardimcilari Gorev Dagilimi Page
       Then user should see Kongre Merkezleri Title: "Kongre Merkezleri" on Rektor Yardimcilari Gorev Dagilimi Page
       Then user should see Guzel Sanatlar Fakultesi Title: "Güzel Sanatlar Fakültesi" on Rektor Yardimcilari Gorev Dagilimi Page
-      Then user should see Devlet Konservatuvarı Title: "Devlet Konservatuvarı" on Rektor Yardimcilari Gorev Dagilimi Page
+      Then user should see Devlet Konservatuvari Title: "Devlet Konservatuvarı" on Rektor Yardimcilari Gorev Dagilimi Page
       Then user should see Balkan Arastirma Enstitusu Title: "Balkan Araştırma Enstitüsü" on Rektor Yardimcilari Gorev Dagilimi Page
       Then user should see II. Bayezit Kulliyesi Icerisindeki Kuruluslar Title: "II. Bayezit Külliyesi İçerisindeki Kuruluşlar (Sağlık Müzesi, Tıp Medresesi, Tıphane, Aşhane, Taphane, Mumhane)" on Rektor Yardimcilari Gorev Dagilimi Page
       Then user should see Lojmanlar Title: "Lojmanlar" on Rektor Yardimcilari Gorev Dagilimi Page

@@ -9,7 +9,6 @@ import pages.RektorPage;
 import utils.DriverFactory;
 
 public class RektorPageDefinitions {
-
     RektorPage rektor = new RektorPage(DriverFactory.getDriver());
 
     @Given("user on the rektor page")
@@ -25,13 +24,13 @@ public class RektorPageDefinitions {
     @Then("user should see {string} title")
     public void userShouldSeeTitle(String title) {
         String areaTitle = rektor.ShouldSeeTitle();
-        Assert.assertEquals(areaTitle , title);
+        Assert.assertEquals(areaTitle, title);
     }
 
     @Then("user should see rektor name {string}")
     public void userShouldSeeRektorName(String title) {
         String areaTitle = rektor.ShouldSeeRektorName();
-        Assert.assertEquals(areaTitle , title);
+        Assert.assertEquals(areaTitle, title);
     }
 
     @Then("user should see Yayinlar title")
@@ -56,9 +55,9 @@ public class RektorPageDefinitions {
 
     @Then("user should see trakya universitesi page")
     public void userShouldSeeTrakyaUniversitesiPage() {
-       String text =  rektor.ShouldSeeTrakyaUniversitesiPage();
-       String url = "https://www.trakya.edu.tr/";
-       Assert.assertEquals(text,url);
+        String text = rektor.ShouldSeeTrakyaUniversitesiPage();
+        String url = "https://www.trakya.edu.tr/";
+        Assert.assertEquals(text, url);
     }
 
 
@@ -72,7 +71,7 @@ public class RektorPageDefinitions {
     public void userShouldSeePersonelAramaPage() {
         String text = rektor.ShouldSeePersonelAramaPage();
         String url = "https://www.trakya.edu.tr/personel/";
-        Assert.assertEquals(text,url);
+        Assert.assertEquals(text, url);
 
     }
 
@@ -85,6 +84,6 @@ public class RektorPageDefinitions {
     public void userShouldSeeDuyuruTakibiPage() {
         String text = rektor.ShouldSeeDuyuruTakibiPage();
         String url = "https://personel.trakya.edu.tr/son-guncellemeler/";
-        Assert.assertEquals(text,url);
+        Assert.assertEquals(text, url);
     }
 }
