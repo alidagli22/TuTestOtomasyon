@@ -91,14 +91,6 @@ public class RektorYardimcilariPage {
     private By KullaniciGirisiButton = By.cssSelector("");
     private By OsmanNuriHatipogluButton = By.cssSelector("");
     private By AhmetHamdiZaferButton = By.cssSelector("");
-    private By TUHastanesiBasmudurluguPageButton = By.cssSelector("");
-    private By YapiIsleriVeTeknikDaireBaskanligiPageButton = By.cssSelector("");
-    private By DonerSermayeIsletmeMudurluguPageButton = By.cssSelector("");
-    private By ClickOnOgrenciButton = By.cssSelector("");
-    private By YabanciUyrukluOgrenciOfisiPageButton = By.cssSelector("");
-    private By EEgitimButton = By.cssSelector("");
-    private By KaliteGuvencesiButton = By.cssSelector("");
-    private By EnglishButton = By.cssSelector("");
 
 
 
