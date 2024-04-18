@@ -60,10 +60,7 @@ public class RektorPage {
         elementHelper.checkElement(PersonelAramaPage);
     }
 
-    public String  ShouldSeePersonelAramaPage() {
-        return  elementHelper.getUrl();
-
-    }
+    public String  ShouldSeePersonelAramaPage() {return  elementHelper.getUrl();}
 
     public void ClickOnDuyuruTakibi() {
         elementHelper.click(DuyuruTakibi);

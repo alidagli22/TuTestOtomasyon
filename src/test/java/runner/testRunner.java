@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
-        tags = "@rektor",
+        tags = "@OBS",
         features = "src/test/resources/features",
         glue = {"stepDefinitions", "utils"},
         plugin = {
@@ -16,7 +16,7 @@ import org.testng.annotations.DataProvider;
 )
 public class testRunner extends AbstractTestNGCucumberTests {
     @Override
-    @DataProvider(parallel = false)
+    @DataProvider(parallel = true)
     public Object[][] scenarios() {
         return super.scenarios();
     }

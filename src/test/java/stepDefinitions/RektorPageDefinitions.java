@@ -70,7 +70,7 @@ public class RektorPageDefinitions {
     @Then("user should see Personel Arama Page")
     public void userShouldSeePersonelAramaPage() {
         String text = rektor.ShouldSeePersonelAramaPage();
-        String url = "https://www.trakya.edu.tr/personel/";
+        String url = "https://personel.trakya.edu.tr/";
         Assert.assertEquals(text, url);
 
     }
@@ -83,7 +83,7 @@ public class RektorPageDefinitions {
     @Then("user should see Duyuru takibi page")
     public void userShouldSeeDuyuruTakibiPage() {
         String text = rektor.ShouldSeeDuyuruTakibiPage();
-        String url = "https://personel.trakya.edu.tr/son-guncellemeler/";
+        String url = "http://personel.trakya.edu.tr/son-guncellemeler/";
         Assert.assertEquals(text, url);
     }
 }

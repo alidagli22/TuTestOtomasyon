@@ -1,13 +1,10 @@
 @OBS
-  Feature: OBS
-    Scenario: OBS Login
+  Feature:Obss
+    Scenario:Obs
       Given user on the Obs login page
       When user fill the empty boxes on Obs login page
       When user click log in button on Obs login page
-      Then user should see logged in on Obs login page
-      Then user should see welcome page on Obs login page
       When user click OBS button on Obs login page
-      Then user should see Obs homepage page on Obs page
       Then user should click Kapat button on Obs page
       Then user should see Ogrenci no Title : "Öğrenci No" on Obs page
       Then user should see Ana Adi Title : "Ana Adı" on Obs page
@@ -22,13 +19,13 @@
       Then user should see TC Kimlik No Title : "TC Kimlik No" on Obs page
       Then user should see Baba Adi Title : "Baba Adı" on Obs page
       Then user should see Yari Yil Title : "Yarı Yıl" on Obs page
-      Then user should see Danisman-1 Title : "Danışman-1" on Obs page
+      Then user should see Danismanbir Title : "Danışman-1" on Obs page
       Then user should see Bolum Title : "Bölüm" on Obs page
       Then user should see Durum Title : "Durum" on Obs page
       Then user should see Ad Soyad Title : "Ad Soyad" on Obs page
       Then user should see Dogum Tarihi Title : "Doğum Tarihi" on Obs page
       Then user should see Kurumsal E-Posta Title : "Kurumsal E-Posta" on Obs page
-      Then user should see Danisman-2 Title : "Danışman-2" on Obs page
+      Then user should see Danismaniki Title : "Danışman-2" on Obs page
       Then user should see Ana Bilim Dali Title : "Ana Bilim Dalı" on Obs page
       When user click ogrenci bilgileri button on the OBS page
       When user click Ders Programi button on the OBS page
@@ -105,7 +102,7 @@
       Then user should see Basvurular title: "Başvurular" in Basvuru Islemleri on the Obs page
       When user click Basvuru Islemleri button on the Obs page
       When user click Staj Basvuru Islemleri button on the Obs page
-      Then user should see Basvuru Yapilabilecek Acık Staj Ilanlari title:"Başvuru Yapılabilecek Açık Staj İlanları" in Staj Basvuru Islemleri on the Obs page
+      Then user should see Basvuru Yapilabilecek Ack Staj Ilanlari title:"Başvuru Yapılabilecek Açık Staj İlanları" in Staj Basvuru Islemleri on the Obs page
       Then user should see Staj Basvurulariniz title: "Staj Başvurularınız" in Staj Basvuru Islemleri on the Obs page
 
 

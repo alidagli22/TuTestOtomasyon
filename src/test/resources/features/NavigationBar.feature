@@ -39,6 +39,11 @@ Feature: Navigation
 
   Scenario:
     Given user on the Home Page
+    When user click on Hukuk Musavirligi Page Button
+    Then user should see Hukuk Musavirligi Page
+
+  Scenario:
+    Given user on the Home Page
     When user click on Ic Denetim Page Button
     Then user should see Ic Denetim Page
 

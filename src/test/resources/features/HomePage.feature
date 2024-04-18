@@ -1,7 +1,7 @@
 @HomePage
   Feature: Home Page
 
-      @HomePage
+
       Scenario:
         Given user on the Home Page
         Then user should see Trakya University Logo

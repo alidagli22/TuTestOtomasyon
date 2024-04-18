@@ -79,6 +79,12 @@ public class NavigationBar {
         navigation.ShouldSeeBilgiIslemPage();
     }
 
+    @When("user click on Hukuk Musavirligi Page Button")
+    public void userShouldSeeHukukMusavirligiPageButton(){navigation.ShouldSeeHukukMusavirligiPageButton();}
+
+    @Then("user click on Hukuk Musavirligi Page")
+    public void userShouldSeeHukukMusavirligiPage(){navigation.ShouldSeeHukukMusavirligiPage();}
+
     @When("user click on Ic Denetim Page Button")
     public void userClickOnIcDenetimPageButton() {
         navigation.ClickOnIcDenetimPageButton();
