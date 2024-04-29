@@ -38,7 +38,7 @@ public class GenelSekreterlikPage {
 
 
     public void userOnTheGenelSekreterlikPage(){
-        elementHelper.openUrl("");
+        elementHelper.openUrl("https://genelsekreterlik.trakya.edu.tr/ ");
     }
     public String userShouldSeeDuyurularTitleOnGenelSekreterlikPage(){
         return elementHelper.getText(Duyurular);
